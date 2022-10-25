@@ -2,7 +2,46 @@
 /* proj: Vue Hello; */
 /* lang: css; */
 
-/* debug */
-body{
-    background-color: red;
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* container */
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* tipography */
+/* h1 */
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+/* img-formatting-section */
+/* img-class */
+/* .img {
+    width:250px;
+    height:250px;
+} */
+
+/* img */
+img {
+    max-width: 100%;
+    width:250px;
+    height:250px;
+    display:block;
+    margin:0px auto;
+    text-align:center;
 }

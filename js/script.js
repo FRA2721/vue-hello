@@ -2,5 +2,13 @@
 // proj: Vue Hello;
 // lang: js;
 
-// debug
-alert("red");
+const {createApp} = Vue;
+
+createApp({
+    data(){
+        return {
+            text : "Hello World!",
+            logo : "img/youtube.png"
+        }
+    }
+}).mount("#root");
